@@ -156,3 +156,9 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = "care.bariflolabs@gmail.com"
 EMAIL_HOST_PASSWORD = "pgvw cgtd hkbh chak"  # app password
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://powerbg.bc-pl.com'
+]
